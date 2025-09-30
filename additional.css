@@ -21,7 +21,7 @@ h1 > a {
   display: inline-block;
 }
 h1 > a {
-    word-break: keep-all;
+  word-break: keep-all;
 }
 h1 .sub {
   display: block;
@@ -43,9 +43,13 @@ footer h2 .sub::before {
   content: "\2500";
 }
 footer ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 footer li {
   list-style: none;
+}
+
+footer blockquote {
+  font-style: normal;
 }
