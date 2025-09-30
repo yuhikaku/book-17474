@@ -32,6 +32,10 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  font-size: 18px;
+}
+
 footer h1 {
   font-size: 20px;
 }
@@ -52,4 +56,8 @@ footer li {
 
 footer blockquote {
   font-style: normal;
+}
+
+.back-to-home a::before {
+  content: "\25B2";
 }
